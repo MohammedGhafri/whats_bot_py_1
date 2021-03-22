@@ -13,3 +13,4 @@ res_login = s.post("https://www.shahwan.net/wp-login.php?loggedout=true&wp_lang=
 desired_page_2 = s.get("https://www.shahwan.net/wp-admin/admin.php?page=forminator")
 print(res_login.url)
 print(desired_page_2)
+
